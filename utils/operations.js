@@ -1,16 +1,17 @@
+
 export function add(numbers) {
-  return {/*write code here*/}
+  return numbers[0] + numbers[1];
 }
 
 export function subtract(numbers) {
-  return {/*write code here*/}
+  return numbers[0] - numbers[1]
 }
 
 export function multiply(numbers) {
-  return {/*write code here*/}
+  return numbers[0] * numbers[1]
 }
 
 export function divide(numbers) {
-  return {/*write code here*/}
+  return numbers[0] / numbers[1]
 }
 

@@ -1,10 +1,10 @@
 import _ from "lodash";
 
 export function parseNumbers(input) {
-  return {/*write code here*/}
+  return _.map(input.split(","), (num) => parseFloat(num.trim()));
 }
 
 export function isValidOperation(operation) {
-  return {/*write code here*/}
+  return ["add", "subtract", "multiply", "divide"].includes(operation);
 }
 
